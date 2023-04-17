@@ -1,4 +1,9 @@
 package devoir.prog3;
 
-public class ConcreteClass1 {
+import lombok.Data;
+import org.springframework.stereotype.Component;
+
+@Component
+@Data
+public class ConcreteClass1 extends AbstractClass1{
 }

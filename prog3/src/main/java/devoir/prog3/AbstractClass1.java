@@ -1,4 +1,11 @@
 package devoir.prog3;
 
-public class AbstractClass1 {
+import lombok.Data;
+import org.springframework.stereotype.Component;
+
+@Component
+
+public abstract class AbstractClass1 {
+    private ConcreteDependance1 dependance1;
+    private ConcreteDependance2 dependance2;
 }
